@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/src/images/favicon.ico" />
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+  <body>
+    <include src="./partials/header.html"></include>
+    <main class="shopping_list_main">
+      <div class="conteiner-shopping-list">
+        <div class="shopping-direction">
+          <include src="./partials/support-slider.html"></include>
+        </div>
+        <div class="conteiner-shopping-books">
+          <h1 class="shopping">
+            Shopping<span class="shopping_span"> List</span>
+          </h1>
+          <div class="container-markup">
+          </div>
+          <div class="container-pagination">           
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <include src="./partials/register.html"></include>
+    <include src="./partials/scroll-up.html"></include>
+    <include src="./partials/burger-menu.html"></include>
+
+    <script type="module" src="./js/open_form.js"></script>
+    <script type="module" src="./js/shoppinglist.js"></script>
+		<script type="module" src="./js/registration/conditions.js"></script>
+  </body>
+</html>

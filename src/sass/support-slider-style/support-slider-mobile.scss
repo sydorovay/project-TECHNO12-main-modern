@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) {
+  .sidebar {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .support-slider-container {
+    height: 352px;
+    margin-top: 40px;
+  }
+
+  .suport-heading-block {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .swiper-wrapper {
+    padding-bottom: 68px;
+    justify-content: space-between;
+  }
+
+  .slider__next {
+    bottom: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+@import './common';
+@import './root';
+@import './font';
+@import './global';
+
+@import './shoppinglist.scss';
+
+@import './header/header-global.scss';
+@import './header/header-mobile.scss';
+@import './header/header-tablet.scss';
+@import './header/header-desc.scss';
+@import './header/conditions.scss';
+
+@import './registration.scss';
+
+@import './scroll-up';
+@import './burger-menu';
+
+@import './categories-style/categories-general';
+
+@import './support-slider-style/support-slider-general.scss';
+
+@import './modal_book_card.scss';
+@import './_booksRendering';
+
+@import './support-slider-style/support-slider-mobile.scss';
+@import './support-slider-style/support-slider-tablet.scss';
+@import './support-slider-style/support-slider-desctop.scss';
+@import './support-slider-style/support-slider-general.scss';
+
+@import './categories-style/_categories-mobile.scss';
+@import './categories-style/_categories-tablet.scss';
+@import './categories-style/_categories-desctop.scss';
+
+// @import './mixins.scss';
