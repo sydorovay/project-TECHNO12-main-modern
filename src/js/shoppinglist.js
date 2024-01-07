@@ -87,11 +87,6 @@ function renderShoppingList(books, page) {
 
   quantityOfButtons = Math.ceil(books.length / quantityOfBooksPerPage);
 
-  console.log(books);
-  console.log(offset);
-  console.log(offset + quantityOfBooksPerPage);
-  console.log(quantityOfButtons);
-
   shoppingListContainerRef.innerHTML = '';
   shoppingListContainerRef.innerHTML = markupShoppingList(books.slice(offset, offset + quantityOfBooksPerPage));
   paginationContainerRef.innerHTML = '';

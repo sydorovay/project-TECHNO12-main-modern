@@ -58,4 +58,4 @@ const supportList = [
   },
 ]
 
-export {supportList};
+export { supportList };
